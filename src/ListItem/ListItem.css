@@ -1,0 +1,41 @@
+.cardHeader {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.images {
+  height: 150px;
+  width: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.cardFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author {
+  display: flex;
+  align-items: center;
+}
+.avatar-img {
+  height: 30px;
+  width: 30px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.dragItem {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: white;
+  margin: 0 0 8px 0;
+  display: grid;
+  grid-gap: 20px;
+  flex-direction: column;
+  width: 299px;
+}
+.item-id {
+}

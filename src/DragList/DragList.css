@@ -1,0 +1,17 @@
+.dragDropContainer {
+  padding: 20px;
+
+  border-radius: 6px;
+}
+.list-grid {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  justify-content: center;
+  grid-gap: 8px;
+}
+@media screen and (max-width: 600px) {
+  .list-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
